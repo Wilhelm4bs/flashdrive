@@ -1,0 +1,98 @@
+body{
+    background-color:#212121;
+    font-family: "Evogria";
+    color: #212121;
+}
+.navbar{
+    border: #212121 solid 2px;
+    height: 500px;
+}
+
+.container{
+    width: 40%;
+    height: 250px;
+    border: 10px solid #E69347;
+    margin: 0 auto;
+}
+.top-bar{
+    background-color: #E69347;
+    height:30px;
+}
+
+.loading-bar{
+    border: 10px solid #E69347;
+    height: 50px;
+    width: 61%;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: #212121;
+    z-index: 10;
+    position: relative;
+}
+
+.loading-first{
+    padding:5px;
+    width: 2%;
+    height: 80%;
+    background-color: #212121;
+    float: left;
+    margin-right: 7px;
+    margin-left: 1px;
+    
+}
+.loading-bit{
+    padding: 5px;
+    width: 2%;
+    height: 80%;
+    background-color: #212121;
+    float: left;
+    margin-right: 7px;
+    z-index: 10;
+    
+}
+.loading-last{
+    padding: 5px;
+    width: 2%;
+    height: 80%;
+    background-color: #212121;
+    float: left;
+
+}
+
+.buttons{
+    margin: 0 auto;
+    height: 50px;
+    width: 61%;
+    text-align: center;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+}
+.butn{
+    background: transparent;
+    border: none !important;
+    font-size:30;
+    color: white;
+    width: 550px;
+    height: 100px;
+}
+.butn:focus {
+    outline: none;
+  }
+
+
+#flash{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    transform: rotate(135deg);
+    animation: mymove 3s 1;
+    animation-fill-mode: forwards;
+    z-index: 1;
+}
+
+@keyframes mymove {
+    from { margin-top: 0%;}
+    to { margin-top: 20.7%;}
+  }
